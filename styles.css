@@ -1,3 +1,33 @@
+#home {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.hero-video-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.7));
+  z-index: 1;
+}
+
+.hero-orb,
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
 :root {
       --bg:        #09090C;
       --surface:   #111116;
