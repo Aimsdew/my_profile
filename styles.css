@@ -154,6 +154,7 @@
     }
     .btn-linkedin:hover { transform: translateY(-2px); opacity: 0.9; }
     .btn-linkedin svg { width: 17px; height: 17px; fill: #fff; flex-shrink: 0; }
+
  
     /* About */
     #about { background: var(--surface); }
@@ -371,3 +372,6 @@
       .nav-links { gap: 1.2rem; }
       section { padding: 72px 5vw; }
     }
+.linkedin-grid {
+  grid-template-columns: 1fr;
+}
